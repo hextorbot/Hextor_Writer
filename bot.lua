@@ -40,7 +40,7 @@ _دریافت به صورت کج_
 [HEXTOR](http://telegram.me/HEXTOR_CH)
 
 ⚜*ادمین*⚜
-[ReZa](http://telegram.me/reza_IDeactive)
+[ReZa](http://telegram.me/Hextor_admin)
 ➖➖➖➖➖
 💠`کاری از`
 🔥*HEXTOR™*🔥
@@ -252,7 +252,7 @@ function msg_processor(msg)
   
  
  elseif msg.text:match("[/!][Ww]rite (.*)") then
- local matches = { string.match(msg.text, "[/!][ww]rite (.*)") }
+ local matches = { string.match(msg.text, "[/!][Ww]rite (.*)") }
  local text = ''..matches[1]..''
  sendMessage(msg.chat.id, text, true, false, true)
 
